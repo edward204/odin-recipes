@@ -1,17 +1,36 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 .title {
     background-color: rgb(42, 103, 104);
     color: rgb(255, 255, 255);
+    padding: 8px 15px;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.menu {
+    margin: 16px auto;
+    width: 400px;
 }
 
 .recipe {
 font-size: 20px;
 }
 
+li {
+    margin-bottom: 8px;
+}
+
 h2 {
     background-color: rgb(42, 103, 104);
     color: rgb(255, 255, 255);
+    padding: 8px 15px;
+}
+
+.content {
+    width: 700px;
+    margin: 16px auto;
 }
